@@ -1,5 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
+from lxml import html
+import json
 
 
 import os
@@ -27,21 +29,16 @@ headers = {
 response = requests.get(
     'https://lottery1-intl.fwc22.tickets.fifa.com/lottery/application_es.html#/step/selection/0/list', headers=headers).text
 
-soup = BeautifulSoup(response, 'lxml')
+# soup = BeautifulSoup(response, 'lxml')
 
-# Not working
-individual_matches = soup.find_all(
-    'div', class_='product-list-content')
+tree = html.fromstring(response)
+data = tree.xpath('//div[@class="product-list-content"]/@data-context')
+# product_name = json.loads(data[0])
 
-# Option 1 - Use attrs
-# individual_matches = soup.find('div',
-#                                attrs={'class': lambda e: e.startswith('clearfix product-list-line') if e else False})
-
-# Option 2 - Use css selector
-
+print(data)
 
 # Write content on a file
-with open('test1.txt', 'w', encoding="utf-8") as f:
-    f.write(str(individual_matches))
+# with open('test1.txt', 'w', encoding="utf-8") as f:
+#     f.write(str(individual_matches))
 
 # print(individual_matches)
