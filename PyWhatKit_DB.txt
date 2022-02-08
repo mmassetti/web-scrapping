@@ -1,0 +1,75 @@
+Date: 3/2/2022
+Time: 11:8
+Phone Number: +5492914312803
+Message: test
+--------------------
+Date: 3/2/2022
+Time: 11:14
+Phone Number: +5492914312803
+Message: This message is coming from an automated Python script. Current time 2022-02-03 11:14:09.480330
+--------------------
+Date: 3/2/2022
+Time: 11:17
+Group ID: B9p5jiZ2vjGLqnIQ83Rw1L
+Message: This message is coming from an automated Python script. Current time 2022-02-03 11:17:16.916894
+--------------------
+Date: 3/2/2022
+Time: 11:24
+Phone Number: +5492914312803
+Message: Mensaje instantaneo test
+--------------------
+Date: 3/2/2022
+Time: 11:25
+Group ID: B9p5jiZ2vjGLqnIQ83Rw1L
+Message: Negro la puta que te pario. Current time 2022-02-03 11:25:17.225313
+--------------------
+Date: 3/2/2022
+Time: 11:30
+Phone Number: +5492914312803
+Message: Mensaje instantaneo test
+--------------------
+Date: 3/2/2022
+Time: 11:31
+Phone Number: +5492914312803
+Message: Mensaje instantaneo test
+--------------------
+Date: 3/2/2022
+Time: 11:34
+Phone Number: +5492914312803
+Message: Mensaje instantaneo test v2
+--------------------
+Date: 3/2/2022
+Time: 11:36
+Phone Number: +5492914312803
+Message: Mensaje instantaneo test v2
+--------------------
+Date: 3/2/2022
+Time: 11:37
+Phone Number: +5492914312803
+Message: Mensaje instantaneo test v2
+--------------------
+Date: 3/2/2022
+Time: 11:38
+Phone Number: +5492914312803
+Message: Mensaje instantaneo test v3
+--------------------
+Date: 3/2/2022
+Time: 11:39
+Phone Number: +5492914312803
+Message: Mensaje instantaneo test v3
+--------------------
+Date: 3/2/2022
+Time: 11:39
+Phone Number: +5492914312803
+Message: Mensaje instantaneo test v3
+--------------------
+Date: 3/2/2022
+Time: 11:40
+Phone Number: +5492914312803
+Message: Mensaje instantaneo test v3
+--------------------
+Date: 3/2/2022
+Time: 11:59
+Phone Number: +5492914312803
+Message: Mensaje instantaneo test v4
+--------------------
