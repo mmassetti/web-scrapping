@@ -19,8 +19,8 @@ password_input = '//*[@id="password"]'
 login_submit = '//*[@id="next"]'
 
 WebDriverWait(driver, 10).until(EC.element_to_be_clickable(
-    (By.XPATH, email_input))).send_keys("agusmassetti@gmail.com")
-driver.find_element(By.XPATH, password_input).send_keys("Aurinegro741995m")
+    (By.XPATH, email_input))).send_keys(YOUR_EMAIL)
+driver.find_element(By.XPATH, password_input).send_keys(YOUR_PASSWORD)
 
 
 driver.find_element(By.XPATH, login_submit).click()
